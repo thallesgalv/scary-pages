@@ -7,8 +7,8 @@ O objetivo do [projeto Scary Pages](https://github.com/thallesgalv/scary-pages) 
 - Configuração de ambiente de trabalho para utilização de [Typescript](https://www.typescriptlang.org/) com [create-react-app](https://create-react-app.dev/docs/getting-started), eslint e prettier;
 - Inspirações e ajuda para setup do ambiente:
   - [Repo beatrizsabbatini](https://github.com/beatrizsabbatini/workshop-animacoes-reactjs)
-  - [Vídeo luiz silva](https://www.youtube.com/watch?v=QqY5qRnLTF8&t=762s&ab_channel=luizsilva)
-  - [Vídeo Rocketseat](https://www.youtube.com/watch?v=1nVUfZg2dSA&t=1298s&ab_channel=Rocketseat)
+  - [Vídeo luiz silva](https://www.youtube.com/watch?v=QqY5qRnLTF8)
+  - [Vídeo Rocketseat](https://www.youtube.com/watch?v=1nVUfZg2dSA)
 - Organização do projeto em pastas de forma clara:
 
   - components > Componente > index.tsx e styles.ts
@@ -16,7 +16,8 @@ O objetivo do [projeto Scary Pages](https://github.com/thallesgalv/scary-pages) 
   - styles > global.ts, theme.ts e styled.d.ts
   - routes > index.tsx
   - assets > (...).png, etc
-    ![Imagefolder](https://github.com/thallesgalv/scary-pages/blob/main/src/assets/folder.png)
+  
+  ![Imagefolder](https://github.com/thallesgalv/scary-pages/blob/main/src/assets/folder.png)
 
 - Utilização prática da sintaxe do Typescript e suas peculiaridades com componentes React;
 - Produção de uma ""fake API"". A ideia era usar uma fake API com [JSONServer](https://github.com/typicode/json-server), contudo, a sua utilização era dificuldade no ambiente de produção. A solução foi utilizar apenas um [repositório no GitHub](https://github.com/thallesgalv/api-scary-page) que retorna um JSON;
