@@ -8,4 +8,9 @@ export const Heading = styled.h1`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 767px) {
+    font-size: ${({ theme }) => theme.font?.tm7?.size};
+    line-height: ${({ theme }) => theme.font?.tm7?.line};
+  }
 `;

@@ -4,11 +4,9 @@ import { WrapperShape } from './styles';
 
 const Shape: React.FC = () => {
   return (
-    <>
-      <WrapperShape>
-        <ShapeSVG />
-      </WrapperShape>
-    </>
+    <WrapperShape>
+      <ShapeSVG />
+    </WrapperShape>
   );
 };
 

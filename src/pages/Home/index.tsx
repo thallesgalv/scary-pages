@@ -11,14 +11,13 @@ import {
   Container,
   Column,
 } from './styles';
-import Fantasma from '../../assets/lottie_ah.json';
 import Ghost from '../../assets/lottie_Ghost.json';
-import Gostosuras from '../../assets/lottie_Gostosuras.json';
-import Travessuras from '../../assets/lottie_Travessuras.json';
 import Modal from '../../components/Modal';
 
 const Home: React.FC = () => {
   const container = React.useRef<HTMLDivElement>(null);
+  const [modal, setModal] = React.useState(false);
+  const [tricks, setTricks] = React.useState(true);
 
   React.useEffect(() => {
     if (container.current) {
@@ -29,11 +28,14 @@ const Home: React.FC = () => {
         autoplay: true,
         animationData: Ghost,
       });
-      lottie.setSpeed(0.2);
     }
-  }, [container]);
+    lottie.setSpeed(0.3);
+  }, []);
 
-  const [modal, setModal] = React.useState(false);
+  function handleModal() {
+    setModal(!modal);
+    lottie.pause('');
+  }
 
   return (
     <>
@@ -48,10 +50,23 @@ const Home: React.FC = () => {
             <br /> Tenha muuuito medo dela! 👻
           </SubTitle>
           <FlexBox>
-            <Button secondary onClick={() => setModal(true)}>
+            <Button
+              secondary
+              onClick={() => {
+                setTricks(false);
+                handleModal();
+              }}
+            >
               Gostosuras 🍭
             </Button>
-            <Button onClick={() => setModal(true)}>Travessuras 🎃</Button>
+            <Button
+              onClick={() => {
+                setTricks(true);
+                handleModal();
+              }}
+            >
+              Travessuras 🎃
+            </Button>
           </FlexBox>
         </Column>
         <Column>
@@ -60,7 +75,7 @@ const Home: React.FC = () => {
         </Column>
       </Section>
 
-      {modal && <Modal />}
+      {modal && <Modal tricks={tricks} setModal={setModal} />}
     </>
   );
 };

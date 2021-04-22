@@ -9,6 +9,8 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  position: fixed;
+  z-index: 99;
 
   svg {
     height: ${({ theme }) => theme.rem(theme.menuHeight - 20)};
@@ -74,7 +76,7 @@ export const Nav = styled.nav<Props>`
         top: 0;
         left: 0;
         transform: translate(50%,-50%)
-        z-index: 1;
+        z-index: 99;
         background-color: ${({ theme }) => theme.color?.secondary};
       }
     `}

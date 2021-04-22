@@ -7,4 +7,9 @@ export const StyledFooter = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  > svg {
+    width: 6rem;
+    margin-left: 0.5rem;
+  }
 `;

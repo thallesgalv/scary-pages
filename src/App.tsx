@@ -15,7 +15,7 @@ const App: React.FC = () => {
       <ThemeProvider theme={defaultTheme}>
         <Header />
         <Routes />
-        <Footer>Feito por Galv</Footer>
+        <Footer />
         <GlobalStyle />
       </ThemeProvider>
     </BrowserRouter>

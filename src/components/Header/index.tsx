@@ -43,13 +43,19 @@ const Header: React.FC = () => {
       <Nav isMobile={mobile} isClicked={clicked}>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={() => setClicked(false)}>
+              Home
+            </Link>
           </li>
           <li>
-            <NavLink to="/equipe">Equipe</NavLink>
+            <NavLink to="/equipe" onClick={() => setClicked(false)}>
+              Equipe
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/objetivo">Objetivos</NavLink>
+            <NavLink to="/objetivos" onClick={() => setClicked(false)}>
+              Objetivos
+            </NavLink>
           </li>
         </ul>
       </Nav>

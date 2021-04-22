@@ -1,10 +1,14 @@
 import React from 'react';
 import { StyledFooter } from './styles';
+import { ReactComponent as Galv } from '../../assets/tgViceBlue.svg';
 
-const Footer: React.FC = ({ children }) => {
+const Footer: React.FC = () => {
   return (
     <>
-      <StyledFooter>{children}</StyledFooter>
+      <StyledFooter>
+        <small>Feito por: </small>
+        <Galv />
+      </StyledFooter>
     </>
   );
 };
