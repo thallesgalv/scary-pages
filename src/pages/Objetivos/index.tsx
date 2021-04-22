@@ -13,6 +13,7 @@ const Objetivos: React.FC = () => {
       />
       <Section>
         <Title>Objetivos</Title>
+        <article />
       </Section>
     </>
   );
