@@ -16,7 +16,7 @@ O objetivo do [projeto Scary Pages](https://github.com/thallesgalv/scary-pages) 
   - styles > global.ts, theme.ts e styled.d.ts
   - routes > index.tsx
   - assets > (...).png, etc
-    ![Imagefolder](https://github.com/thallesgalv/scary-pages/tree/main/src/assets/folder.png)
+    ![Imagefolder](https://github.com/thallesgalv/scary-pages/blob/main/src/assets/folder.png)
 
 - Utilização prática da sintaxe do Typescript e suas peculiaridades com componentes React;
 - Produção de uma ""fake API"". A ideia era usar uma fake API com [JSONServer](https://github.com/typicode/json-server), contudo, a sua utilização era dificuldade no ambiente de produção. A solução foi utilizar apenas um [repositório no GitHub](https://github.com/thallesgalv/api-scary-page) que retorna um JSON;
@@ -24,7 +24,9 @@ O objetivo do [projeto Scary Pages](https://github.com/thallesgalv/scary-pages) 
 - Utilização de animações com [Lottie](https://lottiefiles.com/) na aplicação;
 - Utilização de skeleton UI's feitos de forma nativa (css puro);
 - Treino de construção de UI no XD.
-  ![Image XD](https://github.com/thallesgalv/scary-pages/tree/main/src/assets/xd.png)
+  ![Image XD](https://github.com/thallesgalv/scary-pages/blob/main/src/assets/xd.png)
+
+
 
 ## 🧛 Objetivos:
 
