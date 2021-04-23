@@ -10,7 +10,7 @@ export const Container = styled.div`
 `;
 export const SkeletonCard = styled.div`
   margin: 0 auto;
-  width: calc(max(35vw, 632px));
+  width: max(35vw, 632px);
   min-height: 240px;
   background: #b8b8b8;
   border-radius: 1rem;
