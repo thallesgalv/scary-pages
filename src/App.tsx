@@ -1,6 +1,6 @@
 import React from 'react';
 import { DefaultTheme, ThemeProvider } from 'styled-components';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import { theme } from './styles/theme';
 import GlobalStyle from './styles/global';
 import Routes from './routes';
@@ -11,14 +11,14 @@ const App: React.FC = () => {
   const defaultTheme: DefaultTheme = theme;
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ThemeProvider theme={defaultTheme}>
         <Header />
         <Routes />
         <Footer />
         <GlobalStyle />
       </ThemeProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
