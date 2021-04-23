@@ -11,14 +11,14 @@ const App: React.FC = () => {
   const defaultTheme: DefaultTheme = theme;
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <ThemeProvider theme={defaultTheme}>
         <Header />
         <Routes />
         <Footer />
         <GlobalStyle />
       </ThemeProvider>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
