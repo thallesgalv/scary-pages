@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/scary-pages/static/js/main.c3601d26.chunk.js",
-    "main.js.map": "/scary-pages/static/js/main.c3601d26.chunk.js.map",
+    "main.js": "/scary-pages/static/js/main.061def2c.chunk.js",
+    "main.js.map": "/scary-pages/static/js/main.061def2c.chunk.js.map",
     "runtime-main.js": "/scary-pages/static/js/runtime-main.1c43dc0e.js",
     "runtime-main.js.map": "/scary-pages/static/js/runtime-main.1c43dc0e.js.map",
-    "static/js/2.0f4df2d2.chunk.js": "/scary-pages/static/js/2.0f4df2d2.chunk.js",
-    "static/js/2.0f4df2d2.chunk.js.map": "/scary-pages/static/js/2.0f4df2d2.chunk.js.map",
+    "static/js/2.6ddcc2ec.chunk.js": "/scary-pages/static/js/2.6ddcc2ec.chunk.js",
+    "static/js/2.6ddcc2ec.chunk.js.map": "/scary-pages/static/js/2.6ddcc2ec.chunk.js.map",
     "index.html": "/scary-pages/index.html",
-    "static/js/2.0f4df2d2.chunk.js.LICENSE.txt": "/scary-pages/static/js/2.0f4df2d2.chunk.js.LICENSE.txt",
+    "static/js/2.6ddcc2ec.chunk.js.LICENSE.txt": "/scary-pages/static/js/2.6ddcc2ec.chunk.js.LICENSE.txt",
     "static/media/folder.352bb7f0.png": "/scary-pages/static/media/folder.352bb7f0.png",
     "static/media/formas.c9639b1b.svg": "/scary-pages/static/media/formas.c9639b1b.svg",
     "static/media/logo.6c65bb95.svg": "/scary-pages/static/media/logo.6c65bb95.svg",
@@ -20,7 +20,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1c43dc0e.js",
-    "static/js/2.0f4df2d2.chunk.js",
-    "static/js/main.c3601d26.chunk.js"
+    "static/js/2.6ddcc2ec.chunk.js",
+    "static/js/main.061def2c.chunk.js"
   ]
 }
