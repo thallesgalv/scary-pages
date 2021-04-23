@@ -1,7 +1,7 @@
 {
   "name": "scary-pages",
   "version": "0.1.0",
-  "homepage": "https://thallesgalv.github.io/scary-pages",
+  "homepage": "http://thallesgalv.github.io/scary-pages",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -31,7 +31,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "browserslist": {
     "production": [
